@@ -30,7 +30,7 @@ const indexOfFirstGame = indexOfLastGame - gamesPerPage
 const currentGame = gameData.slice(indexOfFirstGame, indexOfLastGame)
 
   return (
-    <div className='w-full h-screen bg-teal-50 px-4 py-6  flex flex-col space-y-10'>
+    <div className='w-full h-full bg-teal-50 px-4 py-6  flex flex-col space-y-10'>
       <h1 className='text-2xl font-bold'>Whoscore</h1>
 
    <div className='px-2'>

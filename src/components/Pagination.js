@@ -15,7 +15,7 @@ export const Pagination = ({
     gameNumbers.push(i);
   }
   return (
-    <div className="flex items-center justify-center">
+    <div className="flex flex-col md:flex-row items-center justify-center">
       <div className="border rounded-2xl shadow-inner flex items-center justify-center px-4 py-4">
         <ul className="m-2 flex items-center">
           <li>
@@ -74,7 +74,7 @@ export const Pagination = ({
         </ul>
       </div>
 
-      <div className="ml-2 md:ml-8 space-x-2 flex">
+      <div className="ml-2 md:ml-8 mt-2 md:mt-0 space-x-2 flex">
         <span className="w-4 h-4 block bg-green-400 rounded-full"></span>
         <span className="w-4 h4 block bg-amber-400 rounded-full"></span>
         <span className="w-4 h4  block bg-red-400 rounded-full"></span>

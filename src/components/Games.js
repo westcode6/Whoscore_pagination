@@ -11,7 +11,7 @@ export const Games = ({ games, loading }) => {
           key={games.id}
           className="w-full shadow-inner bg-teal-50 rounded-2xl py-10 animate__animated animate__fadeIn"
         >
-          <div className="flex items-center justify-between text-xs px-2 md:px-10 py-2">
+          <div className="flex items-center justify-between text-xs px-4 md:px-10 py-2">
             <div className="flex flex-col items-start space-y-2">
               <p>{games.betId}</p>
               <h5 className="flex">
